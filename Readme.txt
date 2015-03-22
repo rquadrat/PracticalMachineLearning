@@ -1,0 +1,1 @@
+The Analysis can be viewed as html at <http://rquadrat.github.io/PracticalMachineLearning/Analysis.html>
