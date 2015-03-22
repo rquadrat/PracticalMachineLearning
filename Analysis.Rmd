@@ -1,0 +1,37 @@
+---
+title: "Fitness Tracker Machine Learning Analysis"
+author: "Roland Rodde"
+date: "03/22/2015"
+output: html_document
+---
+
+## Experimental Data
+Test set and training set data are taken from <http://groupware.les.inf.puc-rio.br/har>. The test set and training set data is loaded into R with the read.csv() command. Each record from the test and training set data consists of 160 measurements. See the following list for details:
+
+```{r, echo=F}
+#names(test)
+```
+
+These measurements were taken during a lift weighting exercise (Unilateral Dumbbell Biceps Curl). The exercise where carried out by 6 different probands in 5 different ways. Way "A" is the correct way of performing the exercise, the ways "B" to "E" correspond to common mistakes. 4 Different sensors were collecting data: One at the belt, one at the arm, one at the forearm and one at the dumbbell.
+
+##Data Selection
+
+No imputation is necessary as there are no .
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+this should only depend on the mesurements of the 
+A brief look toward the data using the summary() command shows that for many variables vaules are missing for most of the time
